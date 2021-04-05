@@ -21,7 +21,7 @@ mvn spring-boot:run
 
 It uses a H2 in memory database (for now), can be changed easily in the `application.properties` for any other database.
 
-#Swagger
+# Swagger
  
  http://localhost:8080/swagger-ui.html
  
