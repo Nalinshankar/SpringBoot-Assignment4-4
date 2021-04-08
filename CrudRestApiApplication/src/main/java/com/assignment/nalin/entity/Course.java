@@ -57,15 +57,15 @@ public class Course {
 		
 	}
 
-	public Course(Long id, Department department, Instructor instructor, Long duration, String name,
-			Set<Student> students) {
+	public Course(Long id, Department department, Instructor instructor, Long duration, String name
+			) {
 
 		this.id = id;
 		this.department = department;
 		this.instructor = instructor;
 		this.duration = duration;
 		this.name = name;
-		this.students = students;
+		
 	}
 
 	public Long getId() {

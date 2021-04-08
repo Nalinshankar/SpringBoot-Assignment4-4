@@ -87,13 +87,13 @@ public class Student {
 		this.courses = courses;
 	}
 
-	public Student(Long id, String firstName, String lastName, String phoneNumber, Set<Course> courses) {
-		super();
+	public Student(Long id, String firstName, String lastName, String phoneNumber) {
+		
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.phoneNumber = phoneNumber;
-		this.courses = courses;
+		
 	}
 
 	public Student() {
