@@ -10,7 +10,7 @@ For building and running the application you need:
 
 # Database
 
-It uses a H2 in memory database (for now), can be changed easily in the `application.properties` for any other database.
+It uses a H2 in memory database (for now), can be changed easily in the `application.yml` for any other database.
 
 # How to use this code?
 
